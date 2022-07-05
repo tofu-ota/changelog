@@ -1,0 +1,43 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Xiaomi Mi 11 (venus)
+Device maintainer: Ralph Chen (Tofu)
+
+===== 2022-10-08 =====
+- venus: Commonize Display calibration configs
+- [TMP] sm8350-common: Ignore sepolicy neverallows
+- sm8350-common: rootdir: Prefer s2idle over deep for lahaina
+- sm8350-common: Set manufacturer soc property
+- sm8350-common: Commonize Display calibration configs
+- sm8350-common: rootdir: Remove IO read_ahead_kb tune
+- sm8350-common: sepolicy: Allow camera hal to read mnt_vendor_file
+- sm8350-common: Add xiaomi cit sensor service
+- sm8350-common: overlay: Import CarrierConfig changes from oneplus LE2125_11.C.48
+- sm8350-common: overlay: Use CarrierConfig DTMF & CSP booleans
+- sm8350-common: overlay: Clean up DOS CR characters
+- fixup! sm8350-common: Use the ?= operator so BT properties can be overridden
+- sm8350-common: vibrator: Update effect names
+- sm8350-common: overlay: Set preferred refresh rate on keyguard to 60
+- sm8350-common: overlay: Add support for doze auto brightness
+- sm8350-common: sepolicy: Let tee setting mlipay props
+- sm8350-common: Remove deprecated biometrics soong conditionals
+- sm8350-common: sepolicy: Label camera props
+- sm8350-common: sepolicy: Allow apps and camera HAL access to secure ADSP domain
+- sm8350-common: sepolicy: Allow neural networks HAL to read ADSP properties
+- sm8350-common: Make fastrpc_shell_3 publicly available
+- sm8350-common: gpt-utils: Do fsync after writing partition entries
+- sm8350-common: gpt-utils: Drop unused sparse_crc32
+- sm8350-common: Set max_retry_alloc_output_timeout to 0
+- sm8350-common: audio: Don't advertise vorbis offloading support
+- Partially revert "sm8350-common: audio: remove unsupported configuration options
+- sm8350-common: Drop audio_configs.xml
+- sm8350-common: Copy snapdragon color libs config from display HAL
+- sm8350-common: Copy powerhint.xml from power HAL
+- sm8350-common: hal: audio: Update gain to 84 for WSA MCS devices
+- sm8350-common: hal: set valid and supported channel mask for earpiece
+- sm8350-common: configs: Add Stereo config channel support to usb surround sound
+- fixup! sm8350-common: sepolicy: Label more wakeup nodes
+- sm8350-common: Drop QTI camera device usage
+- sm8350-common: overlay: Switch to vendor-defined color modes
+- sm8350-common: Use randomly generated camera config [1/2]
+- sm8350-common: replace libavservices_minijail_vendor with libavservices_minijail
