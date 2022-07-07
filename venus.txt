@@ -1,4 +1,10 @@
 ====================
-     2022-07-01    
+     2022-07-07     
 ====================
+* Safetynet is now passing by default
 * Initial release
+
+====================
+     2022-07-06    
+====================
+* Initial pre-release
