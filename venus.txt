@@ -1,10 +1,16 @@
 ====================
+     2022-07-08     
+====================
+* Enable UDFPS icons and animations
+* Implement MIUI Camera
+
+====================
      2022-07-07     
 ====================
 * Safetynet is now passing by default
 * Initial release
 
 ====================
-     2022-07-06    
+     2022-07-06     
 ====================
 * Initial pre-release
