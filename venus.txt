@@ -1,8 +1,12 @@
 ====================
      2022-07-08     
 ====================
+* Fixed status bar height in landscape full screen mode
+
+====================
+     2022-07-08     
+====================
 * Enable UDFPS icons and animations
-* Implement MIUI Camera
 
 ====================
      2022-07-07     
