@@ -1,7 +1,94 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: Xiaomi Mi 11 (venus)
 Device maintainer: Ralph Chen (Tofu)
+
+===== 2022-11-28 =====
+- venus: Add default alarm and media vibration intensity settings
+- venus: Clean up README.md
+- venus: Remove duplicated blobs
+- venus: Don't sign Wifi RROs with platform cert
+- venus: Set default hotspot ssid
+- venus: Set bluetooth.device.default_name to 'Mi 11'
+- venus: overlay: Remove dsp. prefix from audio and video power profiles
+- venus: Bump to cheetah November fingerprint
+- venus: Update hotword enrollment blobs from V13.0.5.0.SKBMIXM
+- venus: overlay: Add device specific doze package
+- Revert "venus: drop window level flag"
+- venus: Track my own android_vendor_xiaomi_venus repo
+- venus: Add missing libion lib
+- venus: Bump to cheetah August fingerprint
+- venus: Build vanilla by default
+- venus: Add support for next generation assistant
+- venus: Don't build GrapheneOS camera
+- sm8350-common: AOSP WFD doesn't support protected Wi-Fi Display buffers
+- sm8350-common: Enable avrcp controller bluetooth profile
+- sm8350-common: Remove duplicated blobs
+- Revert "Update README.md"
+- sm8350-common: Enable smooth motion in surfaceflinger
+- sm8350-common: Remove odex/oat files from pinner list.
+- sm8350-common: Compile the kernel without GCC
+- sm8350-common: rootdir: Import cgroup tuning from gs101
+- sm8350-common: rootdir: Update init.qti.kernel.rc from haydn V13.0.3.0.SKKMIXM
+- sm8350-common: Revert Xiaomi cpuset changes
+- sm8350-common: rootdir: Update kernel post boot scripts from haydn V13.0.3.0.SKKMIXM
+- sm8350-common: rootdir: Setup foreground CPU Sets for LAHAINA.
+- sm8350-common: Remove core control tunings
+- sm8350-common: rootdir: Move background cpuset to CPU0-1
+- sm8350-common: rootdir: Lower down rate limit for prime CPU
+- sm8350-common: rootdir: Improve scheduler tuning
+- sm8350-common: rootdir: Bump little cluster input boost freq
+- sm8350-common: rootdir: Move foreground cpuset to common
+- sm8350-common: rootdir: Disable Scheduler Core Control
+- sm8350-common: rootdir: Kang schedutil ratelimits from gs101
+- sm8350-common: rootdir: Move audio-app cpuset to 1-2
+- sm8350-common: rootdir: Enable CPU input boost for prime cluster
+- sm8350-common: rootdir: Enable uclamp latency_sensitive for top-app
+- sm8350-common: rootdir: Setup scheduler group_downmigrate value
+- sm8350-common: rootdir: Setup schedutil up/down_rate_limit values
+- sm8350-common: rootdir: Initial performance tuning
+- sm8350-common: overlay: allow seamless Doze state transitions
+- sm8350-common: Update device that aptX blobs are pulled from
+- sm8350-common: Do not block binder thread on incoming calls
+- sm8350-common: parts: Disable startup provider
+- sm8350-common: Drop custom APM flag
+- sm8350-common: Remove bdroid_buildcfg.h
+- sm8350-common: rootdir: Remove discard command tuning
+- sm8350-common: Allow overriding content detection refresh rate props
+- sm8350-common: Enable WFD property "persist.debug.wfd.enable".
+- sm8350-common: overlay: Update multiple vibration strength levels overlay for 13
+- sm8350-common: Migrate vendor.camera.aux.packagelist to overlay
+- sm8350-common: sepolicy: Fix faceunlock denial
+- sm8350-common: Add faceunlock package to aux cam list
+- sm8350-common: Expose aux cams to Aperture
+- sm8350-common: overlay: Support smart pixels
+- sm8350-common: Add overlay with fps path
+- sm8350-common: rootdir: Allow all filesystems for USB-OTG
+- Revert "lahaina: Move Xiaomi Doze inside stock ambient display preference"
+- sm8350-common: Remove references to a2dp module
+- sm8350-common: Pull appropriate USB props from vendor_product.mk
+- fixup! sm8350-common: Move Bluetooth power overlays to sysprops
+- sm8350-common: Move BT profiles props to vendor
+- sm8350-common: Fix disabling A2DP offload
+- sm8350-common: overlay: Enable battery health
+- sm8350-common: Switch to Google Camera
+- sm8350-common: Add a system property for System UI compiler filter.
+- sm8350-common: Preopt SystemUI for AOSP builds.
+- sm8350-common: Enable zygote critical window
+- sm8350-common: Move Bluetooth power overlays to sysprops
+- sm8350-common: Modify Vulkan and OpenGL version to 2020-03-01
+- sm8350-common: Add OpenGL ES and update Vulkan dEQP feature flags
+- sm8350-common: gps: Revert oem changes
+- sm8350-common: Migrate to AIDL ClearKey DRM HAL
+- sm8350-common: manifest: Drop wfdhdcp
+- sm8350-common: Set BOARD_EROFS_COMPRESSOR
+- sm8350-common: Drop media target variant property from system_ext.prop
+- Revert "sm8350-common: sepolicy: allow spodaemon to access spuari status prop"
+- sm8350-common: sepolicy: allow vendor_init to change watermark_scale_factor
+- sm8350-common: Nuke qcom wfd for now
+- sm8350-common: Drop androidboot.memcg=1 kernel CMDLINE
+- Revert "[TMP] sm8350-common: Ignore sepolicy neverallows"
+- sm8350-common: Switch to legacy sepolicy_vndr
 
 ===== 2022-10-08 =====
 - venus: Commonize Display calibration configs
